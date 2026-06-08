@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data & model artifacts (keep the repo light; document how to fetch instead)
+data/*
+!data/.gitkeep
+*.joblib
+*.pkl
+models/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
