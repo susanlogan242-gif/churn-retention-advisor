@@ -23,3 +23,6 @@ models/
 .DS_Store
 .vscode/
 .idea/
+
+# Personal build record (keep local, not on GitHub)
+BUILD_NOTES.md

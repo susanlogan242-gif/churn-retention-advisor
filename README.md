@@ -4,7 +4,7 @@
 
 A churn model on its own is a data-science exercise. This is built like a tool a **Customer Success team could actually use**: it ranks at-risk customers by **£-at-risk**, explains *why* each is at risk (SHAP), and proposes a concrete, evidence-based retention play — shipped as an interactive Streamlit app.
 
-**🔗 Live demo:** _add Streamlit Cloud link after deploy_
+**🔗 Live demo:** **https://churn-retention-advisor.streamlit.app**
 
 ![App screenshot](images/app.png)
 
@@ -87,4 +87,4 @@ The deployed app uses a **deterministic, driver-grounded generator** — every r
 Scheduled **retraining + drift monitoring**, an **A/B test** of the retention playbook vs a control, a feedback loop from CS outcomes, and (if automated) a human-in-the-loop guardrail on generated copy.
 
 ## License
-All rights reserved — published for portfolio viewing only. See [LICENSE](LICENSE).
+All rights reserved — published publicly for viewing, not for reuse. See [LICENSE](LICENSE).
