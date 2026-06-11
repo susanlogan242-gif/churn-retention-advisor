@@ -13,6 +13,8 @@ venv/
 # Data & model artifacts (keep the repo light; document how to fetch instead)
 data/*
 !data/.gitkeep
+# Keep the redistributable IBM sample — the app/deploy need it
+!data/WA_Fn-UseC_-Telco-Customer-Churn.csv
 *.joblib
 *.pkl
 models/
