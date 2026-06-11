@@ -73,6 +73,10 @@ images/                         # plots used in this README
 ## The retention layer (a note on the LLM)
 The deployed app uses a **deterministic, driver-grounded generator** — every recommendation maps to a real SHAP driver, so it can't hallucinate and needs no API key. It's designed to drop in a live LLM (Anthropic API, with a no-hallucination guardrail) for richer phrasing — see the optional cell in the notebook.
 
+![Grounded retention play](images/retention_play.png)
+
+*Each recommendation traces back to one of this customer's actual drivers — the "why" is shown alongside the "what", and the app's toggle contrasts this with a generic playbook.*
+
 ## Limitations & ethical use
 - Single **public dataset**; no real customer PII. Results are illustrative.
 - **Gender is deliberately not used to drive actions** — retention offers key off behavioural/contract features only.
