@@ -34,9 +34,9 @@ st.markdown("""
 html, body, [class*="css"] { font-family: 'Inter', system-ui, sans-serif; }
 .block-container { padding-top: 4.5rem; padding-bottom: 2.5rem; max-width: 1180px; }
 #MainMenu, footer { visibility: hidden; }
-.app-title { font-size: 2.05rem; font-weight: 700; color: #1b2733; letter-spacing: -0.02em;
-             margin: 0 0 .35rem; line-height: 1.2; }
-.app-sub  { color: #5b6b76; font-size: 1rem; margin: 0 0 .5rem; line-height: 1.45; }
+.app-title { font-size: 2.8rem; font-weight: 800; color: #14304a; letter-spacing: -0.03em;
+             margin: 0 0 .5rem; line-height: 1.15; }
+.app-sub  { color: #5b6b76; font-size: 1.05rem; margin: 0 0 .5rem; line-height: 1.45; max-width: 70ch; }
 .badge { display:inline-block; padding:.18rem .6rem; border-radius:999px;
          font-size:.78rem; font-weight:600; letter-spacing:.01em; }
 .badge-high { background:#fdeae1; color:#c2410c; }
